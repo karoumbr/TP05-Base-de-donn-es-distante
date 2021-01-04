@@ -1,5 +1,5 @@
 <?php
-$db = "glsic_base_distante";
+$db = "bentechprotvdb";
 $host = "localhost";
 $conn = mysqli_connect($host, "root","",$db);
 if ($conn)
