@@ -1,5 +1,5 @@
 <?php
-$db = "glsic_base_distante";
+$db = "bentechprotvdb";
 $ref = $_POST["ref"];
 $des = $_POST["des"];
 $host = "localhost";
