@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
             String user = strings[0];
             String pass = strings[1];
             //pour savoir votre adresse ip: lancer la commande "ipconfig" avec le programme cmd
-            String connstr = "http://192.168.100.116/bentechprotv/login.php";
+            String connstr = "http://adresse-ip-de-votre-machine/bentechprotv/login.php";
             try {
                 URL url = new URL(connstr);
                 HttpURLConnection http = (HttpURLConnection) url.openConnection();
