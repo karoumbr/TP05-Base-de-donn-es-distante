@@ -6,7 +6,7 @@ $host = "localhost";
 $conn = mysqli_connect($host, "root","",$db);
 if ($conn)
 {
-	$q= "insert into produits (reference,designation) values ('$ref','$des')";
+	$q= "insert into produits (id,designation) values ('$ref','$des')";
 	if (mysqli_query($conn, $q)) {
 		echo "succes insertion";
 		
